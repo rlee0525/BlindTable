@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 60px;
+  background: linear-gradient(270deg, #404040, #212121);
+}
+
+.header-title {
+  color: white;
+  font-size: 25px;
+  margin-left: 20px;
+  margin-top: 21px;
+}
+
+.background {
+  background-image: url("./background.png");
+  height: 80vh;
+  width: 100%;
+}
+
+.footer {
+  background: linear-gradient(270deg, #404040, #212121);
+  height: 10vh;
+  width: 100%;
+}
